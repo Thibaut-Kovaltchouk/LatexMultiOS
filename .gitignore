@@ -1,0 +1,14 @@
+
+*.upsti
+
+*.log
+
+*.aux
+
+*.version
+
+*.ini
+
+*.out
+
+*.gz
