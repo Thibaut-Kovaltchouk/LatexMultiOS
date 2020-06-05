@@ -12,3 +12,9 @@
 *.out
 
 *.gz
+
+*.revision
+
+*-Prof.tex
+*-Eleve.tex
+*-Public.tex
