@@ -1,0 +1,3 @@
+TDS-compliant directory trees
+texmf sous mac (par défaut avec MacTex) : HOME/library/texmf (HOME : /usr/jsmith)
+texmf sous windows (par défaut avec miktex) : %USERPROFILE%\AppData\Roaming\MiKTeX\2.9
