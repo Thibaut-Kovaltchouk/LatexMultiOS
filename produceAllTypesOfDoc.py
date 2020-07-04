@@ -9,12 +9,13 @@ nom = "/home/kovaltct/Git/LatexMultiOS/testAndEnjoy.tex"
 
 if __name__ == "__main__":
     # execute only if run as a script
-    # nom = sys.argv[1]
+    nom = sys.argv[1]
     print(nom)
+    print(os.getcwd())
 
 def baseDuNom(nom):
     return os.path.basename(nom).split('.')[0]
-    
+
 def extension(nom):
     return os.path.basename(nom).split('.')[-1]
 
@@ -52,7 +53,7 @@ if d != -1:
                 cwd=tmpDir,
                 shell=True)
         pathNewPdf = tmpDir + "/" + base + ext + ".pdf"
-        pathDestPdf = repertoire(nom) + "/" + base + ext + ".pdf"
+        pathDestPdf = os.getcwd() + "/" + base + ext + ".pdf"
         shutil.copyfile(pathNewPdf, pathDestPdf)
     shutil.rmtree(tmpDir)
 else:

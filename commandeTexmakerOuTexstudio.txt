@@ -1,0 +1,10 @@
+Options/Configurer TeXStudio...
+Dans l'onglet Production, ajouter dans les compilations utilisateurs :
+
+Options/Configurer Texmaker
+Dans Compil rapide, ajouter dans la compilation utilisateur :
+
+Sous Windows : 
+python3 "C:\Users\thiba\Documents\Git\LatexMultiOS\produceAllTypesOfDoc.py" ?am.tex
+Sous Un*x : 
+"/home/kovaltct/Git/LatexMultiOS/produceAllTypesOfDoc.py" ?am.tex
