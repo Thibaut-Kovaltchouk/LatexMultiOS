@@ -24,6 +24,6 @@ L'installer dans un endroit qui vous convient, changez son nom si vous le souhai
 
 Sous TeXstudio et sur Texmaker par exemple, vous pouvez définir une compilation personnelle :
 * sous Windows, mettez la commande : `python3 "C:\Users\thiba\Documents\Git\LatexMultiOS\produceAllTypesOfDoc.py" %.tex`
-* sous Un*x, mettez la commande : `"/home/kovaltct/Git/LatexMultiOS/produceAllTypesOfDoc.py" ?am.tex`
+* sous Un*x, mettez la commande : `"/home/kovaltct/Git/LatexMultiOS/produceAllTypesOfDoc.py" %.tex`
 
 Vous adaptez la première partie de la commande à l'endroit où vous avez décidé de placer le script.
