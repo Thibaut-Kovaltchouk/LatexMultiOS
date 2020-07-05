@@ -69,7 +69,7 @@ if d != -1:
         file.write(NewCorps)
         file.close()
         for i in range(3):
-            run("pdflatex -synctex=1 -interaction=nonstopmode --shell-escape \""+newTex+"\"",
+            run("lualatex -synctex=1 -interaction=nonstopmode --shell-escape \""+newTex+"\"",
                 cwd=tmpDir,
                 shell=True)
         pathNewPdf = tmpDir + "/" + base + ext + ".pdf"
